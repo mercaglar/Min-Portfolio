@@ -6,16 +6,31 @@
     text-align: center;
   }
   
-  /* Styla content */
+
+
+
+  /* Styla Body */
   .content {
     padding: 20px;
+    text-align: right;
   }
   
+
+
+
+
   /* Styla footer */
   .footer {
     background-color: #042331;
     color: #fff;
-    padding: 10px;
-    text-align: center;
+    padding: 50px;
+    text-align: center
   }
-  
+
+  .footer a {
+color: #fff;
+  }
+
+  .footer a:hover {
+    color: #00bfff;
+  }
