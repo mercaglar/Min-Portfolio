@@ -1,0 +1,21 @@
+/* Styla header */
+.header {
+    background-color: #042331;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Styla content */
+  .content {
+    padding: 20px;
+  }
+  
+  /* Styla footer */
+  .footer {
+    background-color: #042331;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+  
