@@ -6,9 +6,15 @@
   align-items: center;
   display: flex;
   justify-content: space-between;
+  position: fixed;
+  top: 0; 
+  left: 0;
+  width: 100%; 
+  z-index: 1000;
  }
+
 .logo img {
-  height: 100px;
+  height: 80px;
 }
 
 .navbar a{
@@ -44,11 +50,18 @@ nav ul li a {
   
 /* Styla header */
 .header a{
-
   align-items: center;
   display: flex;
+
 }
 
+/* .header{
+  background-image: url(C:\Users\Omerc\Downloads\Min Portfölj Kod\images\bakgrundsbild.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+} */
 .header-container{
   display: grid;
   grid-template-columns: 52% auto;
@@ -58,22 +71,27 @@ nav ul li a {
 
 }
 
+
 .header-container p{
   margin-bottom: 30px;
+ 
 }
-
 .header-left {
   padding-top: 0px;
   align-items: center;
-  margin-top: 100px;
-  padding-left: 200px;
+  margin-top: 0px;
+  padding-left: 200px; 
+   
 }
 
 .header-right {
-  padding-top: 10px;
+  padding-top: 120px;
+  padding-right: 100px;
   align-items: right;
   display: flex;
   margin-left: auto;
+  display: inline-block;
+
 }
 .btn {
   background-color: #042b3d;
@@ -84,7 +102,9 @@ nav ul li a {
   cursor: pointer;
 }
 
+.body a{
 
+}
 
 
 
